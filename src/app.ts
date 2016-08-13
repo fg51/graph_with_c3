@@ -6,14 +6,14 @@ let chart = c3.generate({
         url: "/data/data.json",
         mimeType: "json",
 
-        type: "line",
+        type: "line",   //NOTE: chart type
         keys: {
             x: "time",
-            value: ["velocity", "height"]
+            value: ["velocity", "height"]   //NOTE: "key name" 
         },
-        axes: {
-            velocity: "y",
-            height: "y2"
+        axes: { //NOTE: "value name": "target axes"
+            velocity:"y",
+            height:"y2"
         }
     },
     axis: {
