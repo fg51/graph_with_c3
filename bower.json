@@ -1,0 +1,20 @@
+{
+  "name": "graph_with_c3",
+  "description": "",
+  "main": ".js",
+  "authors": [
+    "jiita <>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jiita/graph_with_c3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "c3": "^0.4.11"
+  }
+}
