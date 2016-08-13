@@ -1,10 +1,6 @@
 /// <reference path = "../typings/index.d.ts" />
 
 let chart = c3.generate({
-    //size: {
-    //    height: 800,
-    //    width: 600
-    //},
     bindto: "#chart",
     data: {
         url: "/data/data.json",
@@ -18,7 +14,8 @@ let chart = c3.generate({
         axes: { //NOTE: "value name": "target axes"
             velocity:"y",
             height:"y2"
-        } },
+        }
+    },
     axis: {
         x: {
             tick: {
@@ -34,5 +31,4 @@ let chart = c3.generate({
         }
     }
 });
-
 
